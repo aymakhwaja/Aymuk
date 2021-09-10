@@ -1,0 +1,14 @@
+main:
+        irmovq $array, %rdi
+        irmovq $4, %rsi
+        call ret_0
+        halt
+
+array:
+        .quad 0x1234000012340000
+        .quad 0x0000123400001234
+        .quad 0x4321000043210000
+        .quad 0x0000432100004321
+ret_0:
+        irmovq $0, %rax
+        ret
