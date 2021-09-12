@@ -1,9 +1,0 @@
-RELOCATIONS
-
-
-
-SYMBOL TABLE
-
-sum
-sum_loop
-end_sum_loop

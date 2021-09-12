@@ -22,6 +22,8 @@
 0x038:                      | end_sum_loop:
 0x038: 90                   |         ret
 ***
+0x1b,end_sum_loop
+0x30,sum_loop
 ***
 0x000,sum
 0x014,sum_loop
